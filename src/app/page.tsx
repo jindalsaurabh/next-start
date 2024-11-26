@@ -1,3 +1,9 @@
+"use client";
+/*import { createContext } from "react";*/
+
+import { Button } from "@nextui-org/react";
+
+/*const Context = createContext();*/
 export default function Home() {
-  return <h1> Hello World !! I am here !!! And you2?</h1>;
+  return <Button> Hello World</Button>;
     }
